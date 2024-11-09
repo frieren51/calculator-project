@@ -1,0 +1,77 @@
+/* Calculator Container */
+#calculator {
+    background: linear-gradient(145deg, #f0f0f0, #d9d9d9);
+    border: 2px solid #bbb;
+    border-radius: 15px;
+    width: 220px;
+    padding: 15px;
+    box-shadow: 4px 4px 10px #aaa, -4px -4px 10px #fff;
+}
+
+/* Display Screen */
+#display {
+    margin: 10px auto;
+    width: 90%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #04506b;
+    color: #ecf0f1;
+    box-shadow: inset 2px 2px 5px #aaa, inset -2px -2px 5px #fff;
+    border: none;
+}
+
+/* Button Container */
+.button_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px #aaa, -3px -3px 5px #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Operator Button Styling */
+.button.operator {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+/* Button Hover Effect */
+.button:hover {
+    background: linear-gradient(145deg, #d9d9d9, #f0f0f0);
+    box-shadow: inset 3px 3px 5px #aaa, inset -3px -3px 5px #fff;
+}
+
+/* Active Button Effect */
+.button:active {
+    background: #bdc3c7;
+    box-shadow: inset 2px 2px 5px #aaa, inset -2px -2px 5px #fff;
+}
+
+/* Clear and Equals Button */
+.button.clear {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.button.equals {
+    background-color: #27ae60;
+    color: #fff;
+}
